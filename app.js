@@ -17,7 +17,6 @@ app.use(cookieParser())
 
 app.use("/api/v1/user", userRouter);
 
-// NW3IqY8IILVJVy8j
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
